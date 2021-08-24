@@ -5,4 +5,8 @@ y <- c(63, 81, 56, 91, 47, 57, 76, 72, 62, 48)
 relation <- lm(y~x)
 print(relation)
 print(summary(relation))
+
+#plot regression line 
+plot(x~y)
+abline(lm(x~y))
       
