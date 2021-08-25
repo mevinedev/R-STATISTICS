@@ -13,10 +13,7 @@ rainfall.timeseries <- ts(combined.rainfall,start = c(2012,1),frequency = 12)
 # Print the timeseries data.
 print(rainfall.timeseries)
 
-# Give the chart file a name.
-png(file = "rainfall_combined.png")
-
 # Plot a graph of the time series.
 plot(rainfall.timeseries, main = "Multiple Time Series")
 
-# Save the file.
+# Save file
