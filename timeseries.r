@@ -16,5 +16,5 @@ print(rainfall.timeseries)
 # Plot a graph of the time series.
 plot(rainfall.timeseries, main = "Multiple Time Series")
 
-# the graph shows multiple  time series for rainfall distribution
+# the graph shows multiple  time series for rainfall over a year
 # Save file
